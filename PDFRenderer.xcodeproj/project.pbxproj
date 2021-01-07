@@ -13,6 +13,7 @@
 		1955504825A568DB009F08F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1955504625A568DB009F08F5 /* Main.storyboard */; };
 		1955504A25A568DF009F08F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1955504925A568DF009F08F5 /* Assets.xcassets */; };
 		1955504D25A568DF009F08F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1955504B25A568DF009F08F5 /* LaunchScreen.storyboard */; };
+		1955505525A568FF009F08F5 /* PDFGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1955505425A568FF009F08F5 /* PDFGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1955504925A568DF009F08F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1955504C25A568DF009F08F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1955504E25A568DF009F08F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1955505425A568FF009F08F5 /* PDFGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				1955504025A568DB009F08F5 /* AppDelegate.swift */,
 				1955504225A568DB009F08F5 /* SceneDelegate.swift */,
 				1955504425A568DB009F08F5 /* ViewController.swift */,
+				1955505425A568FF009F08F5 /* PDFGenerator.swift */,
 				1955504625A568DB009F08F5 /* Main.storyboard */,
 				1955504925A568DF009F08F5 /* Assets.xcassets */,
 				1955504B25A568DF009F08F5 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				1955504525A568DB009F08F5 /* ViewController.swift in Sources */,
 				1955504125A568DB009F08F5 /* AppDelegate.swift in Sources */,
+				1955505525A568FF009F08F5 /* PDFGenerator.swift in Sources */,
 				1955504325A568DB009F08F5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
